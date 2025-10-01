@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Raihan Darma Putra - Mahasiswa Teknik Informatika UMRAH & UI/UX Designer">
+    <title>Raihan Darma Putra | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Google - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome untuk icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <!-- THEME TOGGLE SWITCH -->
+    <div class="theme-toggle-wrapper">
+        <div class="theme-toggle" id="themeToggle">
+            <div class="theme-toggle-slider"></div>
+        </div>
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">AMRI</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SCROLL PROGRESS BAR -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <!-- Profile Image -->
+                <div class="profile-image-wrapper">
+                    <div class="profile-image">
+                        <img src="images/profile.jpg" alt="Raihan Darma Putra" id="profileImg">
+                        <div class="profile-placeholder" id="profilePlaceholder">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="hero-subtitle">Hi, saya</p>
+                <h1 class="hero-title">RAIHAN DARMA PUTRA</h1>
+                <p class="hero-description">Mahasiswa Teknik Informatika UMRAH | UI/UX Designer</p>
+                <p class="hero-tagline">Menciptakan pengalaman digital yang menarik dan fungsional</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Lihat Karya</a>
+                    <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+                <!-- Social Links -->
+                <div class="social-links">
+                    <a href="https://github.com/Amriii2407" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/raihan-darma-0a86b1386" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/raihandrmptr_" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-image-wrapper">
+                        <img src="images/about.jpg" alt="About Raihan" id="aboutImg">
+                        <div class="about-placeholder" id="aboutPlaceholder">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>
+                        Halo! Saya Raihan Darma Putra, mahasiswa semester 3 Teknik Informatika di Universitas Maritim Raja Ali Haji (UMRAH). 
+                        Saya memiliki passion dalam dunia UI/UX Design dan pengembangan web.
+                    </p>
+                    <p>
+                        Saat ini saya sedang fokus mempelajari dan mengembangkan kemampuan saya dalam menciptakan 
+                        interface yang user-friendly dan pengalaman pengguna yang optimal. Saya percaya bahwa 
+                        desain yang baik adalah kombinasi antara estetika dan fungsionalitas.
+                    </p>
+                    <p>
+                        Saya selalu terbuka untuk berkolaborasi dalam proyek-proyek menarik dan terus belajar 
+                        teknologi baru untuk mengembangkan skill saya.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Teknologi</h2>
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>C++</li>
+                        <li>C</li>
+                        <li>HTML & CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                
+                <!-- Design -->
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>UI/UX Design</h3>
+                    <ul>
+                        <li>User Interface Design</li>
+                        <li>User Experience Design</li>
+                        <li>Prototyping</li>
+                        <li>Wireframing</li>
+                    </ul>
+                </div>
+                
+                <!-- Tools (bisa disesuaikan) -->
+                <div class="skill-card">
+                    <div class="skill-icon">🛠️</div>
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Figma</li>
+                        <li>Git & GitHub</li>
+                        <li>VS Code</li>
+                        <li>Adobe XD</li>
+                    </ul>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Problem Solving</li>
+                        <li>Team Collaboration</li>
+                        <li>Quick Learner</li>
+                        <li>Creative Thinking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">Portfolio proyek saya akan segera hadir di sini</p>
+            
+            <!-- Template Project Card (akan diisi nanti) -->
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">🚀</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Coming Soon</h3>
+                        <p>Proyek pertama sedang dalam pengembangan...</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">🎨</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>UI/UX Project</h3>
+                        <p>Desain interface sedang dalam proses...</p>
+                        <div class="project-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">💡</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>More Projects</h3>
+                        <p>Portfolio akan terus diupdate dengan proyek-proyek baru...</p>
+                        <div class="project-tags">
+                            <span class="tag">Coming Soon</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="section-subtitle">Tertarik untuk berkolaborasi? Mari terhubung!</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <a href="mailto:raihandarmaaa@gmail.com">raihandarmaaa@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/Amriii2407" target="_blank">Amriii2407</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/raihan-darma-0a86b1386" target="_blank">Raihan Darma Putra</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-instagram"></i>
+                        <div>
+                            <h3>Instagram</h3>
+                            <a href="https://www.instagram.com/raihandrmptr_" target="_blank">@raihandrmptr_</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Raihan Darma Putra. Built with passion and code.</p>
+            <div class="footer-social">
+                <a href="https://github.com/Amriii2407" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/raihan-darma-0a86b1386" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/raihandrmptr_" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
